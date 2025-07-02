@@ -1,2 +1,6 @@
-# ibm-capstone-project-putrinandasari
-Repositori ini untuk memenuhi submission capstone project IBM untuk Data Classification and Summarization
+# Memahami Pola Serangan Siber melalui Analisis Log Keamanan: Insight Data-Driven untuk Strategi Perlindungan Instansi dengan Model Granite Instruct dari IBM
+
+## Project Overview
+## Raw dataset link
+## Insight & findings
+## AI support explanation
