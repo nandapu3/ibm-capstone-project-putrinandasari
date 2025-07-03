@@ -5,15 +5,13 @@ Di era digital saat ini, banyak organisasi — termasuk startup dan perusahaan b
 
 Sebagai bentuk mitigasi, proyek ini memanfaatkan Large Language Model (LLM), khususnya **Granite Instruct dari IBM**, untuk melakukan **analisis pola serangan siber melalui log keamanan jaringan**. Log keamanan merupakan komponen penting dalam sistem keamanan organisasi, namun sering kali berukuran sangat besar dan kompleks sehingga menyulitkan proses audit secara manual.
 
-Melalui pendekatan berbasis LLM, proyek ini bertujuan untuk:
-- Mengidentifikasi jenis ancaman yang dominan,
-- Menemukan jalur atau aset sistem yang paling sering diserang,
-- Menggali pola waktu terjadinya ancaman,
-- Memberikan insight strategis yang dapat digunakan dalam pengambilan keputusan keamanan organisasi.
+Melalui pendekatan berbasis LLM, proyek ini bertujuan untuk menjawab beberapa pertanyaan berikut ini:
+- Apa jenis ancaman yang paling dominan dalam sistem kami?
+- Jalur atau aset sistem mana yang paling sering diserang oleh ancaman?
+- Pada jam berapa ancaman paling sering terjadi dalam sistem kami?
+- Apa insight strategis yang dapat digunakan untuk pengambilan keputusan keamanan organisasi berdasarkan hasil analisis ini?
 
-Dataset yang digunakan adalah **Cybersecurity Threat Detection Logs**, sebuah dataset simulasi yang bersifat publik dan tersedia di platform Kaggle. Dataset ini meniru karakteristik log asli dari sistem deteksi ancaman dan lalu lintas jaringan, mencakup informasi seperti alamat IP sumber dan tujuan, protokol, tindakan sistem (blocked/allowed), serta label ancaman (benign, suspicious, malicious).
-
-Penggunaan dataset sintetis ini memungkinkan eksplorasi kemampuan LLM dalam lingkungan yang aman dan terkendali, tanpa melibatkan data sensitif dari organisasi sebenarnya.
+Dataset yang digunakan adalah **Cybersecurity Threat Detection Logs**, sebuah dataset simulasi yang bersifat publik dan tersedia di platform Kaggle. Dataset ini meniru karakteristik log asli dari sistem deteksi ancaman dan lalu lintas jaringan, mencakup informasi seperti alamat IP sumber dan tujuan, protokol, tindakan sistem (blocked/allowed), serta label ancaman (benign, suspicious, malicious). Penggunaan dataset sintetis ini memungkinkan eksplorasi kemampuan LLM dalam lingkungan yang aman dan terkendali, tanpa melibatkan data sensitif dari organisasi sebenarnya.
 
 ## Raw dataset link  
 - **Nama Dataset:** Cybersecurity Threat Detection Logs  
