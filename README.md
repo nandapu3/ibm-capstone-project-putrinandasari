@@ -17,7 +17,7 @@ Penggunaan dataset sintetis ini memungkinkan eksplorasi kemampuan LLM dalam ling
 
 ## Raw dataset link  
 - **Nama Dataset:** Cybersecurity Threat Detection Logs  
-- **Sumber:** [Kaggle – Cybersecurity Threat Detection Logs (Simulated)](https://www.kaggle.com/datasets/aryan208/cybersecurity-threat-detection-logs)  
+- **Sumber:** [Kaggle – Cybersecurity Threat Detection Logs](https://www.kaggle.com/datasets/aryan208/cybersecurity-threat-detection-logs)  
 - **Deskripsi:** Dataset sintetis ini berisi sekitar **6 juta entri log** yang dirancang untuk mensimulasikan lalu lintas jaringan dan peristiwa keamanan siber dalam lingkungan organisasi. Setiap entri mencakup informasi seperti protokol komunikasi (TCP, UDP, ICMP, HTTP, HTTPS), tindakan keamanan (`allowed`/`blocked`), klasifikasi ancaman (`benign`, `suspicious`, `malicious`), serta metadata penting seperti alamat IP sumber dan tujuan, *user agent*, dan *request path*.
 - **Penggunaan dalam Proyek:**  
   Untuk keperluan percobaan analisis menggunakan model LLM (Granite Instruct IBM), diambil **sampel sebanyak 3.000 baris log** dari total 6 juta data. Jumlah ini dipilih agar representatif namun tetap efisien untuk dianalisis menggunakan LLM dengan batasan token input.
